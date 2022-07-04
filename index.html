@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://panda.remote.com/favicon-32x32.png?v=2.1"
+    />
+    <link rel="stylesheet" type="text/css" href="css/helper.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="css/animate.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" /> -->
+    <!-- <link rel="stylesheet" type="text/css" href="assets/fontawesome/css/all.min.css" /> -->
+    <title>Global HR Solutions for Distributed Teams | Remote</title>
+    <style>
+      .hero {
+        background: #000;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section class="hero is-info is-fullheight">
+      <div class="hero-video">
+        <video
+          poster="./assets/images/bg/solid-color-image.png"
+          id="bgvid"
+          playsinline
+          autoplay
+          muted
+          loop
+        >
+          <source src="./assets/hero-bg-vid/hero-bg-vid.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="hero-head">
+        <nav class="navbar is-transparent">
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item">
+                <img src="./assets/images/remote-logo.svg" alt="Remote Logo" />
+              </a>
+              <span class="navbar-burger" data-target="navbarMenuHeroB">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div id="navbarMenuHeroB" class="navbar-menu">
+              <div class="navbar-start">
+                <a class="navbar-item is-active"> How it Works </a>
+                <a class="navbar-item"> Why Remote? </a>
+                <a class="navbar-item"> Pricing </a>
+                <a class="navbar-item"> Country Explorer </a>
+                <a class="navbar-item"> Resources </a>
+                <a class="navbar-item"> Partners </a>
+              </div>
+              <!-- Start End -->
+              <div class="navbar-end">
+                <span class="navbar-item">
+                  <a class="button is-rounded is-info is-medium">
+                    <span>Talk to us</span>
+                  </a>
+                </span>
+                <span class="navbar-item">
+                  <a
+                    class="button is-rounded is-info is-outlined is-inverted is-medium"
+                  >
+                    <span>Log in</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns">
+            <div class="column is-half">
+              <div class="content">
+                <p class="title" style="font-size: 70px; margin-bottom: 1px">
+                  Meet the new standard in
+                </p>
+                <p class="title" style="font-size: 70px; color: #75e8f0;">
+                  <span id="js-rotating"> Global HR, Global Payroll, Global Benefits</span>
+                  </p>
+                </div>
+                
+                <p class="subtitle">
+                  International payroll, benefits, taxes, and compliance for
+                  businesses, big and small.
+                </p>
+                <div class="columns">
+                  
+                <span class="navbar-item">
+                  <a class="button is-rounded is-info is-medium">
+                    <span>Get started today</span>
+                  </a>
+                </span>
+                
+                <span class="navbar-item">
+                  <a
+                    class="button is-rounded is-info is-outlined is-inverted is-medium"
+                  >
+                    <span>Schedule a demo</span>
+                  </a>
+                </span>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     
+        </nav>
+      </div>
+    </section>
+  </body>
+  <script src="./js/script.js"></script>
+
+
+  
+        <script>window.jQuery || document.write('<script src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"><\/script>')</script>
+        <script src="./js/morphext.js"></script>
+        <script>
+            $("#js-rotating").Morphext({
+                animation: "rotateInUpLeft",
+                complete: function () {
+                    console.log("This is called after a phrase is animated in! Current phrase index: " + this.index);
+                }
+            });
+        </script>
+</html>
