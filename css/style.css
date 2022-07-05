@@ -5851,7 +5851,7 @@ a.navbar-item:hover {
     color: #485fc7;
   }
   .navbar-burger {
-    display:none;
+    display: none;
   }
   .navbar-item,
   .navbar-link {
@@ -10694,7 +10694,11 @@ a.has-text-danger-dark:hover {
 }
 @media screen and (max-width: 768px) {
   .hero-video {
-    display:none;
+    display: none;
+  }
+  .hero {
+    background: url("../assets/images/bg/solid-color-image.png");
+    background-size: cover;
   }
 }
 .hero-buttons {
